@@ -1,0 +1,25 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Task",
+  "main": "app.js",
+  "engines":{
+    "node":"12.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0"
+  }
+}
